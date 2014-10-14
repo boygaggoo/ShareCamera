@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54B8040C19ED5979003C7BE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8040B19ED5979003C7BE8 /* Foundation.framework */; };
+		54B8040E19ED5979003C7BE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8040D19ED5979003C7BE8 /* CoreGraphics.framework */; };
+		54B8041019ED5979003C7BE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8040F19ED5979003C7BE8 /* UIKit.framework */; };
+		54B8041619ED5979003C7BE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54B8041419ED5979003C7BE8 /* InfoPlist.strings */; };
+		54B8041819ED5979003C7BE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B8041719ED5979003C7BE8 /* main.m */; };
+		54B8041C19ED5979003C7BE8 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B8041B19ED5979003C7BE8 /* SCAppDelegate.m */; };
+		54B8041F19ED5979003C7BE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B8041D19ED5979003C7BE8 /* Main.storyboard */; };
+		54B8042219ED5979003C7BE8 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B8042119ED5979003C7BE8 /* SCViewController.m */; };
+		54B8042419ED5979003C7BE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B8042319ED5979003C7BE8 /* Images.xcassets */; };
+		54B8042B19ED5979003C7BE8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8042A19ED5979003C7BE8 /* XCTest.framework */; };
+		54B8042C19ED5979003C7BE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8040B19ED5979003C7BE8 /* Foundation.framework */; };
+		54B8042D19ED5979003C7BE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8040F19ED5979003C7BE8 /* UIKit.framework */; };
+		54B8043519ED5979003C7BE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54B8043319ED5979003C7BE8 /* InfoPlist.strings */; };
+		54B8043719ED5979003C7BE8 /* ShareCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B8043619ED5979003C7BE8 /* ShareCameraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54B8042E19ED5979003C7BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54B8040019ED5979003C7BE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54B8040719ED5979003C7BE8;
+			remoteInfo = ShareCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54B8040819ED5979003C7BE8 /* ShareCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B8040B19ED5979003C7BE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54B8040D19ED5979003C7BE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54B8040F19ED5979003C7BE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54B8041319ED5979003C7BE8 /* ShareCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareCamera-Info.plist"; sourceTree = "<group>"; };
+		54B8041519ED5979003C7BE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54B8041719ED5979003C7BE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54B8041919ED5979003C7BE8 /* ShareCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareCamera-Prefix.pch"; sourceTree = "<group>"; };
+		54B8041A19ED5979003C7BE8 /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		54B8041B19ED5979003C7BE8 /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		54B8041E19ED5979003C7BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54B8042019ED5979003C7BE8 /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		54B8042119ED5979003C7BE8 /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		54B8042319ED5979003C7BE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		54B8042919ED5979003C7BE8 /* ShareCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B8042A19ED5979003C7BE8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		54B8043219ED5979003C7BE8 /* ShareCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareCameraTests-Info.plist"; sourceTree = "<group>"; };
+		54B8043419ED5979003C7BE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54B8043619ED5979003C7BE8 /* ShareCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareCameraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54B8040519ED5979003C7BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B8040E19ED5979003C7BE8 /* CoreGraphics.framework in Frameworks */,
+				54B8041019ED5979003C7BE8 /* UIKit.framework in Frameworks */,
+				54B8040C19ED5979003C7BE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B8042619ED5979003C7BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B8042B19ED5979003C7BE8 /* XCTest.framework in Frameworks */,
+				54B8042D19ED5979003C7BE8 /* UIKit.framework in Frameworks */,
+				54B8042C19ED5979003C7BE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54B803FF19ED5979003C7BE8 = {
+			isa = PBXGroup;
+			children = (
+				54B8041119ED5979003C7BE8 /* ShareCamera */,
+				54B8043019ED5979003C7BE8 /* ShareCameraTests */,
+				54B8040A19ED5979003C7BE8 /* Frameworks */,
+				54B8040919ED5979003C7BE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54B8040919ED5979003C7BE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54B8040819ED5979003C7BE8 /* ShareCamera.app */,
+				54B8042919ED5979003C7BE8 /* ShareCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54B8040A19ED5979003C7BE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54B8040B19ED5979003C7BE8 /* Foundation.framework */,
+				54B8040D19ED5979003C7BE8 /* CoreGraphics.framework */,
+				54B8040F19ED5979003C7BE8 /* UIKit.framework */,
+				54B8042A19ED5979003C7BE8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54B8041119ED5979003C7BE8 /* ShareCamera */ = {
+			isa = PBXGroup;
+			children = (
+				54B8041A19ED5979003C7BE8 /* SCAppDelegate.h */,
+				54B8041B19ED5979003C7BE8 /* SCAppDelegate.m */,
+				54B8041D19ED5979003C7BE8 /* Main.storyboard */,
+				54B8042019ED5979003C7BE8 /* SCViewController.h */,
+				54B8042119ED5979003C7BE8 /* SCViewController.m */,
+				54B8042319ED5979003C7BE8 /* Images.xcassets */,
+				54B8041219ED5979003C7BE8 /* Supporting Files */,
+			);
+			path = ShareCamera;
+			sourceTree = "<group>";
+		};
+		54B8041219ED5979003C7BE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54B8041319ED5979003C7BE8 /* ShareCamera-Info.plist */,
+				54B8041419ED5979003C7BE8 /* InfoPlist.strings */,
+				54B8041719ED5979003C7BE8 /* main.m */,
+				54B8041919ED5979003C7BE8 /* ShareCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54B8043019ED5979003C7BE8 /* ShareCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				54B8043619ED5979003C7BE8 /* ShareCameraTests.m */,
+				54B8043119ED5979003C7BE8 /* Supporting Files */,
+			);
+			path = ShareCameraTests;
+			sourceTree = "<group>";
+		};
+		54B8043119ED5979003C7BE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54B8043219ED5979003C7BE8 /* ShareCameraTests-Info.plist */,
+				54B8043319ED5979003C7BE8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54B8040719ED5979003C7BE8 /* ShareCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54B8043A19ED5979003C7BE8 /* Build configuration list for PBXNativeTarget "ShareCamera" */;
+			buildPhases = (
+				54B8040419ED5979003C7BE8 /* Sources */,
+				54B8040519ED5979003C7BE8 /* Frameworks */,
+				54B8040619ED5979003C7BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareCamera;
+			productName = ShareCamera;
+			productReference = 54B8040819ED5979003C7BE8 /* ShareCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54B8042819ED5979003C7BE8 /* ShareCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54B8043D19ED5979003C7BE8 /* Build configuration list for PBXNativeTarget "ShareCameraTests" */;
+			buildPhases = (
+				54B8042519ED5979003C7BE8 /* Sources */,
+				54B8042619ED5979003C7BE8 /* Frameworks */,
+				54B8042719ED5979003C7BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54B8042F19ED5979003C7BE8 /* PBXTargetDependency */,
+			);
+			name = ShareCameraTests;
+			productName = ShareCameraTests;
+			productReference = 54B8042919ED5979003C7BE8 /* ShareCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54B8040019ED5979003C7BE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ryosuke Tani";
+				TargetAttributes = {
+					54B8042819ED5979003C7BE8 = {
+						TestTargetID = 54B8040719ED5979003C7BE8;
+					};
+				};
+			};
+			buildConfigurationList = 54B8040319ED5979003C7BE8 /* Build configuration list for PBXProject "ShareCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54B803FF19ED5979003C7BE8;
+			productRefGroup = 54B8040919ED5979003C7BE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54B8040719ED5979003C7BE8 /* ShareCamera */,
+				54B8042819ED5979003C7BE8 /* ShareCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54B8040619ED5979003C7BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B8042419ED5979003C7BE8 /* Images.xcassets in Resources */,
+				54B8041619ED5979003C7BE8 /* InfoPlist.strings in Resources */,
+				54B8041F19ED5979003C7BE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B8042719ED5979003C7BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B8043519ED5979003C7BE8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54B8040419ED5979003C7BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B8041C19ED5979003C7BE8 /* SCAppDelegate.m in Sources */,
+				54B8042219ED5979003C7BE8 /* SCViewController.m in Sources */,
+				54B8041819ED5979003C7BE8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B8042519ED5979003C7BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B8043719ED5979003C7BE8 /* ShareCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54B8042F19ED5979003C7BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54B8040719ED5979003C7BE8 /* ShareCamera */;
+			targetProxy = 54B8042E19ED5979003C7BE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54B8041419ED5979003C7BE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54B8041519ED5979003C7BE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54B8041D19ED5979003C7BE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54B8041E19ED5979003C7BE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54B8043319ED5979003C7BE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54B8043419ED5979003C7BE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54B8043819ED5979003C7BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54B8043919ED5979003C7BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54B8043B19ED5979003C7BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareCamera/ShareCamera-Prefix.pch";
+				INFOPLIST_FILE = "ShareCamera/ShareCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54B8043C19ED5979003C7BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareCamera/ShareCamera-Prefix.pch";
+				INFOPLIST_FILE = "ShareCamera/ShareCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		54B8043E19ED5979003C7BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShareCamera.app/ShareCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareCamera/ShareCamera-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShareCameraTests/ShareCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		54B8043F19ED5979003C7BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShareCamera.app/ShareCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareCamera/ShareCamera-Prefix.pch";
+				INFOPLIST_FILE = "ShareCameraTests/ShareCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54B8040319ED5979003C7BE8 /* Build configuration list for PBXProject "ShareCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B8043819ED5979003C7BE8 /* Debug */,
+				54B8043919ED5979003C7BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54B8043A19ED5979003C7BE8 /* Build configuration list for PBXNativeTarget "ShareCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B8043B19ED5979003C7BE8 /* Debug */,
+				54B8043C19ED5979003C7BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54B8043D19ED5979003C7BE8 /* Build configuration list for PBXNativeTarget "ShareCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B8043E19ED5979003C7BE8 /* Debug */,
+				54B8043F19ED5979003C7BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54B8040019ED5979003C7BE8 /* Project object */;
+}
