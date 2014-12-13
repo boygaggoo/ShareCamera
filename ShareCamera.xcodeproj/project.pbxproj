@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		543495ED1A337A82007AC8DE /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 543495EC1A337A82007AC8DE /* CustomTableViewCell.m */; };
+		54A431771A1CA281009EE01E /* SelectAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A431761A1CA281009EE01E /* SelectAlbumTableViewController.m */; };
+		54A4317A1A1CAFBB009EE01E /* PhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A431791A1CAFBB009EE01E /* PhotoAlbum.m */; };
 		54B8040C19ED5979003C7BE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8040B19ED5979003C7BE8 /* Foundation.framework */; };
 		54B8040E19ED5979003C7BE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8040D19ED5979003C7BE8 /* CoreGraphics.framework */; };
 		54B8041019ED5979003C7BE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8040F19ED5979003C7BE8 /* UIKit.framework */; };
@@ -21,6 +24,8 @@
 		54B8042D19ED5979003C7BE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8040F19ED5979003C7BE8 /* UIKit.framework */; };
 		54B8043519ED5979003C7BE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54B8043319ED5979003C7BE8 /* InfoPlist.strings */; };
 		54B8043719ED5979003C7BE8 /* ShareCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B8043619ED5979003C7BE8 /* ShareCameraTests.m */; };
+		54B8044119F3FE6E003C7BE8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8044019F3FE6E003C7BE8 /* FacebookSDK.framework */; };
+		54B8044419F4052A003C7BE8 /* StorageAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B8044319F4052A003C7BE8 /* StorageAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		543495EB1A337A82007AC8DE /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		543495EC1A337A82007AC8DE /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		54A431751A1CA281009EE01E /* SelectAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectAlbumTableViewController.h; sourceTree = "<group>"; };
+		54A431761A1CA281009EE01E /* SelectAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectAlbumTableViewController.m; sourceTree = "<group>"; };
+		54A431781A1CAFBB009EE01E /* PhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAlbum.h; sourceTree = "<group>"; };
+		54A431791A1CAFBB009EE01E /* PhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbum.m; sourceTree = "<group>"; };
 		54B8040819ED5979003C7BE8 /* ShareCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B8040B19ED5979003C7BE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54B8040D19ED5979003C7BE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +64,9 @@
 		54B8043219ED5979003C7BE8 /* ShareCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareCameraTests-Info.plist"; sourceTree = "<group>"; };
 		54B8043419ED5979003C7BE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54B8043619ED5979003C7BE8 /* ShareCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareCameraTests.m; sourceTree = "<group>"; };
+		54B8044019F3FE6E003C7BE8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		54B8044219F4052A003C7BE8 /* StorageAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageAPI.h; sourceTree = "<group>"; };
+		54B8044319F4052A003C7BE8 /* StorageAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54B8040E19ED5979003C7BE8 /* CoreGraphics.framework in Frameworks */,
+				54B8044119F3FE6E003C7BE8 /* FacebookSDK.framework in Frameworks */,
 				54B8041019ED5979003C7BE8 /* UIKit.framework in Frameworks */,
 				54B8040C19ED5979003C7BE8 /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +116,7 @@
 		54B8040A19ED5979003C7BE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				54B8044019F3FE6E003C7BE8 /* FacebookSDK.framework */,
 				54B8040B19ED5979003C7BE8 /* Foundation.framework */,
 				54B8040D19ED5979003C7BE8 /* CoreGraphics.framework */,
 				54B8040F19ED5979003C7BE8 /* UIKit.framework */,
@@ -117,8 +133,16 @@
 				54B8041D19ED5979003C7BE8 /* Main.storyboard */,
 				54B8042019ED5979003C7BE8 /* SCViewController.h */,
 				54B8042119ED5979003C7BE8 /* SCViewController.m */,
+				54A431751A1CA281009EE01E /* SelectAlbumTableViewController.h */,
+				54A431761A1CA281009EE01E /* SelectAlbumTableViewController.m */,
+				543495EB1A337A82007AC8DE /* CustomTableViewCell.h */,
+				543495EC1A337A82007AC8DE /* CustomTableViewCell.m */,
+				54A431781A1CAFBB009EE01E /* PhotoAlbum.h */,
+				54A431791A1CAFBB009EE01E /* PhotoAlbum.m */,
 				54B8042319ED5979003C7BE8 /* Images.xcassets */,
 				54B8041219ED5979003C7BE8 /* Supporting Files */,
+				54B8044219F4052A003C7BE8 /* StorageAPI.h */,
+				54B8044319F4052A003C7BE8 /* StorageAPI.m */,
 			);
 			path = ShareCamera;
 			sourceTree = "<group>";
@@ -200,6 +224,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Ryosuke Tani";
 				TargetAttributes = {
+					54B8040719ED5979003C7BE8 = {
+						DevelopmentTeam = VCWTDKWV2T;
+					};
 					54B8042819ED5979003C7BE8 = {
 						TestTargetID = 54B8040719ED5979003C7BE8;
 					};
@@ -250,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B8044419F4052A003C7BE8 /* StorageAPI.m in Sources */,
+				543495ED1A337A82007AC8DE /* CustomTableViewCell.m in Sources */,
 				54B8041C19ED5979003C7BE8 /* SCAppDelegate.m in Sources */,
+				54A4317A1A1CAFBB009EE01E /* PhotoAlbum.m in Sources */,
 				54B8042219ED5979003C7BE8 /* SCViewController.m in Sources */,
+				54A431771A1CA281009EE01E /* SelectAlbumTableViewController.m in Sources */,
 				54B8041819ED5979003C7BE8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +387,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ryosuke Tani (VCWTDKWV2T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ryosuke Tani (VCWTDKWV2T)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -367,6 +399,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "be4ac778-b9cf-41e6-aa04-b90a31b4d742";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -377,10 +410,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/taniryosuke/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareCamera/ShareCamera-Prefix.pch";
 				INFOPLIST_FILE = "ShareCamera/ShareCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +431,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ryosuke Tani (VCWTDKWV2T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/taniryosuke/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareCamera/ShareCamera-Prefix.pch";
 				INFOPLIST_FILE = "ShareCamera/ShareCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "66e6e63e-eef8-4e63-8da8-c6205eda69a5";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +506,7 @@
 				54B8043C19ED5979003C7BE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54B8043D19ED5979003C7BE8 /* Build configuration list for PBXNativeTarget "ShareCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +515,7 @@
 				54B8043F19ED5979003C7BE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
